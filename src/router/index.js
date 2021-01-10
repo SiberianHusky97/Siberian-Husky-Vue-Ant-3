@@ -1,6 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 
+/**
+ * 路由说明
+ * path:路由映射
+ * name:路由名称
+ * component:路由组件
+ * showhidden:是否显示页面
+ * children：子路由存储
+ */
 const routes = [
   {
     path: "/",
